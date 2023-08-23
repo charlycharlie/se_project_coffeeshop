@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
@@ -21,15 +21,29 @@
   </head>
   <body>
     <div class="page">
-      <header></header>
-      <main>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Coffeeshop logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a href="" class="nav__link">Recipes</a></li>
+            <li><a href="" class="nav__link">Book a Table</a></li>
+            <li><a href="" class="nav__link">Menu</a></li>
+            <li><a href="" class="nav__link">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="content">
         testing
         <section class="recipe"></section>
         <section class="reservation"></section>
         <section class="menu"></section>
         <section class="about"></section>
       </main>
-      <footer></footer>
+      <footer class="footer"></footer>
     </div>
   </body>
 </html>
