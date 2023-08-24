@@ -7,3 +7,24 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.header {
+  padding: 30px 80px 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.nav__link {
+  color: #000;
+}
