@@ -17,6 +17,11 @@
   justify-content: space-between;
 }
 
+.nav__logo {
+  position: relative;
+  left: -50px;
+}
+
 .nav__links {
   display: flex;
   padding: 0;
@@ -27,4 +32,19 @@
 
 .nav__link {
   color: #000;
+  text-decoration: none;
+}
+
+.header__title {
+  max-width: 729px;
+  font-size: 60px;
+  line-height: 70px;
+  margin: 183px 0 0;
+}
+
+.header__description {
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 28px 0 0;
 }
