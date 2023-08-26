@@ -10,6 +10,11 @@
 
 .header {
   padding: 30px 80px 40px;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
@@ -40,6 +45,8 @@
   font-size: 60px;
   line-height: 70px;
   margin: 183px 0 0;
+  letter-spacing: -0.6px;
+  font-weight: 500;
 }
 
 .header__description {
@@ -47,4 +54,18 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
+}
+
+.header__span-accent {
+  display: block;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.header__paragraph {
+  margin: 0;
 }
