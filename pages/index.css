@@ -73,3 +73,14 @@
 .recipes {
   padding: 100px 80px 215px;
 }
+
+.recipes__videos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.recipes__videos-caption {
+  display: flex;
+  justify-content: space-between;
+}
