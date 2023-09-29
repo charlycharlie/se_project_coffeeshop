@@ -130,15 +130,22 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 24px 0px 0px;
 }
 
 .recipes__videos {
-  display: flex;
+  max-width: 480px;
+  max-height: 273px;
   gap: 40px;
+  margin-top: 80px;
+
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .recipes__videos-caption {
   display: flex;
   justify-content: space-between;
+  margin-top: 24px;
 }
