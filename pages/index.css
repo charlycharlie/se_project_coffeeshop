@@ -134,14 +134,17 @@
 }
 
 .recipes__videos {
+  max-width: 920px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  position: relative;
+}
+
+.recipes__video {
   max-width: 480px;
   max-height: 273px;
-  gap: 40px;
-  margin-top: 80px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .recipes__videos-caption {
