@@ -158,6 +158,8 @@
 
 .reservation {
   padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
 }
 
 .reservation__title_form {
@@ -197,6 +199,15 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__checkbox {
+  width: 20px;
 }
 
 .form__input {
@@ -230,4 +241,6 @@
   font-size: 16px;
   line-height: 20px;
   background-color: #2f80ed;
+  border: none;
+  color: #ffffff;
 }
