@@ -162,6 +162,9 @@
   background-image: url(../images/background_reservation.svg);
 }
 
+.reservation__title {
+}
+
 .reservation__title_form {
   margin: 0 0 80px;
   text-align: center;
