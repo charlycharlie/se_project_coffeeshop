@@ -69,6 +69,32 @@
   z-index: 0;
 }
 
+
+.about__circle_animation_blurred {
+  height: 426px;
+  width: 426px;
+  background-color: #2f80ed;
+  border-radius: 100%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+  animation: pulsate 1.3s ease-in-out infinite;
+  transform: scale(1.1);
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .6;
+  }
+  100% {
+    opacity: 1;
+  } 
+}
+
 .footer {
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
     padding: 60px 80px 60px;
