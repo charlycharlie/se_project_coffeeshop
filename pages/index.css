@@ -17,97 +17,95 @@
 @import url(../blocks/card.css);
 
 .about {
-    background-color: #0a2850;
-    color: white;
-    padding:0 0 0;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    position: relative;
+  background-color: #0a2850;
+  color: white;
+  padding: 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
 }
 
 .about__title {
-    max-width: 251px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    margin: 100px 0 0 80px;
-    z-index: 1;
+  max-width: 251px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0 0 80px;
+  z-index: 1;
 }
 
 .about__content {
-    max-width: 660px;
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 119px 80px 173px 0;
-    list-style-type: none;
-   flex-direction: column;
-   z-index: 1;
+  max-width: 660px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 119px 80px 173px 0;
+  list-style-type: none;
+  flex-direction: column;
+  z-index: 1;
 }
 
 .about__content-paragraph {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about__content-paragraph:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .about__circle {
-    height: 426px;
-    width: 426px;
-    background-color: #2f80ed ;
-    border-radius: 100%;
-    position: absolute;
-    top: -152px;
-    left: -129px;
-    z-index: 0;
+  height: 426px;
+  width: 426px;
+  background-color: #2f80ed;
+  border-radius: 100%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
 }
 
 .footer {
-    box-sizing: border-box;
-  }
-  
-  .footer__columns {
-  }
-  
-  .footer__column_content_hours {
-  }
-  
-  .footer__column_content_social {
-  }
-  
-  .footer__logo {
-  }
-  
-  .footer__list {
-    /* The code below removes the default browser styles for lists */
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .footer__list-item {
-  }
-  
-  .footer__column-heading {
-  }
-  
-  .footer__column-link {
-    color: white;
-    font-size: 16px;
-    line-height: 20px;
-    text-decoration: none;
-  }
-  
-  .footer__social-icon {
-  }
-  
-  .footer__copyright {
-  }
-  
+  box-sizing: border-box;
+}
+
+.footer__columns {
+}
+
+.footer__column_content_hours {
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+}
+
+.footer__list {
+  /* The code below removes the default browser styles for lists */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+}
+
+.footer__column-heading {
+}
+
+.footer__column-link {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+}
+
+.footer__copyright {
+}
