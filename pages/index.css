@@ -69,10 +69,14 @@
 }
 
 .footer {
-  box-sizing: border-box;
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    padding: 60px 80px 60px;
+    margin: 0 0 0;
 }
 
-.footer__columns {
+.footer__logo {
+    height: 39px;
+    width: 105px;
 }
 
 .footer__column_content_hours {
