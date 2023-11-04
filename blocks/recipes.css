@@ -16,7 +16,7 @@
   line-height: 52px;
 }
 
-.recipes__subtitles {
+.recipes__subtitle {
   max-width: 438px;
   margin-top: 24px;
   margin-left: 80px;
@@ -47,5 +47,5 @@
 .recipes__videos-caption {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
+  margin: 24px 0 0;
 }
