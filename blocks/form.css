@@ -25,7 +25,8 @@
 
 .form__checkbox {
   width: 20px;
-  padding-right: 12px;
+  height: 20px;
+  margin-right: 12px;
 }
 
 .form__input {
@@ -37,7 +38,7 @@
   height: 60px;
 }
 
-.form__input[placeholder] {
+.form__input::placeholder {
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -45,6 +46,7 @@
   line-height: 30px;
   color: #838383;
   padding-left: 10px;
+  border-radius: 4px;
 }
 
 .form__button {
@@ -61,4 +63,6 @@
   background-color: #2f80ed;
   border: none;
   color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
 }

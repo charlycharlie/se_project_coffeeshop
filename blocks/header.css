@@ -7,6 +7,7 @@
   flex-direction: column;
   background-image: url(../images/background_header.svg);
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -36,7 +37,6 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  padding-right: 145px;
   border: 0;
 }
 

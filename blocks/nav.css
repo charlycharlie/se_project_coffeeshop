@@ -6,6 +6,8 @@
 .nav__logo {
   position: relative;
   left: -50px;
+  height: 39px;
+  width: 105px;
 }
 
 .nav__links {
