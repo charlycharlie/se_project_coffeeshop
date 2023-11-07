@@ -42,17 +42,17 @@
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
         </p>
+        <img
+        src="./images/inside_coffee_shop.png"
+        alt="coffeeshop image"
+        class="header__image"
+      />
         <div class="header__footer">
           <div>
             <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-          <img
-            src="./images/inside_coffee_shop.png"
-            alt="coffeeshop image"
-            class="header__image"
-          />
           <p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p>
         </div>
       </header>
@@ -66,8 +66,6 @@
           <div class="recipes__videos">
             <div>
               <iframe
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="The Ultimate French Press Technique"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -80,8 +78,6 @@
             </div>
             <div>
               <iframe
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="The Ultimate AeroPress Technique (Episode #3)"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -95,7 +91,7 @@
           </div>
         </section>
         <section class="reservation" id="reservations">
-          <h2 class="reservation__title reservation__title_form">
+          <h2 class="reservation__title">
             Book a table
           </h2>
           <form action="submit" class="reservation__form form">
@@ -216,21 +212,21 @@
           </ul>
         </section>
         <section class="about" id="about">
-          <h4 class="about__title">About the coffee shop</h4>
-          <ul class="about__content">
-            <li class="about__content-paragraph">
+          <h3 class="about__title">About the coffee shop</h4>
+          <div class="about__content">
+            <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
               features 6 tables and free WiFi.
-            </li>
-            <li class="about__content-paragraph">
+            </p>
+            <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
-            </li>
-            <li class="about__content-paragraph">
+            </p>
+            <p class="about__paragraph">
               Besides that, we try to reduce our environmental impact--so we
               don't sell single-use cups. But you can buy one of our reusable
               cups!
-            </li>
-          </ul>
+            </p>
+          </div>
           <div class="about__circle"></div>
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
@@ -241,8 +237,8 @@
               alt="Coffeeshop logo"
               class="footer__logo"
             />
+            <h4 class="footer__social-heading">Social media</h4>
             <ul class="footer__list">
-              <li class="footer__social-heading">Social media</li>
               <li class="footer__list-item footer__social-link">
                 <img
                   src="./images/facebook_white.svg"

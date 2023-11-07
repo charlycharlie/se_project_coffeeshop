@@ -32,11 +32,11 @@
   z-index: 1;
 }
 
-.about__content-paragraph {
+.about__paragraph {
   margin-bottom: 20px;
 }
 
-.about__content-paragraph:last-child {
+.about__paragraph:last-child {
   margin-bottom: 0;
 }
 
