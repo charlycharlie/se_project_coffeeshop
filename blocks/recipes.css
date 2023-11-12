@@ -31,12 +31,7 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-}
-
-iframe {
-  width: 480px;
-  height: 273px;
-  border-style: none;
+  list-style: none;
 }
 
 .recipes__video {
@@ -44,6 +39,9 @@ iframe {
   max-height: 273px;
   position: relative;
   align-items: center;
+  width: 480px;
+  height: 273px;
+  border-style: none;
 }
 
 .recipes__videos-caption {

@@ -36,6 +36,10 @@
   margin-bottom: 20px;
 }
 
+.about__paragraph:first-child {
+  margin-top: 0;
+}
+
 .about__paragraph:last-child {
   margin-bottom: 0;
 }
@@ -53,30 +57,19 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
-  transform: scale(1.1);
 }
 
 @keyframes pulsate {
   0% {
     opacity: 0;
+    scale: (1);
   }
   50% {
     opacity: 0.6;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes transform {
-  0% {
-    scale: (1);
-  }
-  50% {
     scale: (1.1);
   }
   100% {
+    opacity: 0;
     scale: (1);
   }
-  
 }
