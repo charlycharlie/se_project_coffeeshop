@@ -17,6 +17,7 @@
   margin: 183px 0 0;
   letter-spacing: -0.6px;
   font-weight: 500;
+  z-index: 1;
 }
 
 .header__description {
@@ -29,6 +30,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  z-index: 1;
 }
 
 .header__image {
@@ -38,6 +40,7 @@
   top: 124px;
   right: 5px;
   border: 0;
+  z-index: 0;
 }
 
 .header__span-accent {
@@ -53,13 +56,14 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
+  margin: auto 0 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  z-index: 1;
 }
 
 .header__paragraph {

@@ -16,6 +16,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin: 0 0 32px;
+}
+
+.form__label:last-child {
+  margin-bottom: 0;
 }
 
 .form__label_type_checkbox {
@@ -27,6 +32,7 @@
   width: 20px;
   height: 20px;
   margin-right: 12px;
+  border-radius: 2px;
 }
 
 .form__input {
@@ -34,7 +40,7 @@
   width: 100%;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 8px;
+  margin: 0 0 0;
   height: 60px;
   border-radius: 4px;
   opacity: 1;
@@ -59,8 +65,7 @@
 .form__button {
   width: 100%;
   padding: 0;
-  margin-bottom: 32px;
-  margin-top: 32px;
+  margin: 32px 0 32px;
   height: 60px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -72,4 +77,9 @@
   color: #ffffff;
   cursor: pointer;
   border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.form__button:hover {
+  opacity: .7;
 }
