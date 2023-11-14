@@ -36,8 +36,6 @@
 }
 
 .recipes__video {
-  max-width: 480px;
-  max-height: 273px;
   position: relative;
   align-items: center;
   width: 480px;
